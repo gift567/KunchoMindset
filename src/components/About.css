@@ -1,0 +1,62 @@
+
+
+
+.about_sec{
+    background-color: black;
+    height: 79vh;
+    margin-top: 5%;
+    padding: 0;
+    display: flex;
+    
+    
+
+}
+.about_sec img{
+    height: 50px;
+    
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.about_words{
+    margin-top: 5%;
+    color: black;
+   
+   
+    background-color: black;
+    opacity: 0.6;
+      
+    align-items: center;
+    justify-content: center;
+    margin-left: 150px;
+   
+    
+}
+
+.about_words h2{
+    margin: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 14px;
+    font-size: 26px;
+    color: #fff;
+}
+
+.about_words p{
+    margin: 20px;
+    font-family: sans-serif;
+    line-height: 18px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.about_words button{
+    width: 150px;
+    border-radius: 30px;
+    height: 35px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    margin-left: 250px;
+    
+}
