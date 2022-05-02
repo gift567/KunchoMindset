@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Track from './components/Track';
 import About from './components/About';
 import Footer from './components/Footer';
+import Video from './components/Video';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
    
         <h2>My Tracklist</h2>
 
-        <div className="tracklist__container ">
+        <div className="tracklist__container" id="music">
           <Track track="https://open.spotify.com/embed/track/4yNumtdtwcNxBpgx4zxzKJ?utm_source=generator" />
           <Track track="https://open.spotify.com/embed/track/6tL73K9QlfyC2X8yV2KrAw?utm_source=generator"/>
           <Track track="https://open.spotify.com/embed/track/1db5lmXjmtGQ5OrfW7U6EW?utm_source=generator"/>
@@ -25,11 +26,20 @@ function App() {
           <Track track="https://open.spotify.com/embed/track/2Stmbtni53vyAYd9cVL3gZ?utm_source=generator"/>
           <Track track="https://open.spotify.com/embed/track/2Stmbtni53vyAYd9cVL3gZ?utm_source=generator"/>
           <Track track="https://open.spotify.com/embed/track/2Stmbtni53vyAYd9cVL3gZ?utm_source=generator"/>
-          <Track track="https://open.spotify.com/embed/track/2Stmbtni53vyAYd9cVL3gZ?utm_source=generator"/>
         </div>
       </div>
+      <div className="video__container" id='videos'>
+        <h2>Videos</h2>
 
-      <About />
+        <div className='videos'>
+        <Video videoLink="https://www.youtube.com/embed/NLjx100fwWM"  className="video"/>
+        <Video videoLink="https://www.youtube.com/embed/rB7Geg6hhQc" className="video"/>
+        </div>
+        
+      </div>
+      <div id='about'>
+         <About />
+      </div>
       <br></br>
 
       <section id="footer">
