@@ -5,20 +5,21 @@ import './About.css';
 
 
 const Header = () => {
-    return (
-     
-       
-           <div className='about_sec'>
- <img src={shades} alt="" />
-               <div className='about_words'>
+    return (       
+           <div className='about'>
+                <img src={shades} alt="" />
+               <div className='about__info'>
                    <h2>About</h2>
-                   <br/>
-    <p>Lorem ipsumlique qui alias suscsoluta!sit amet consectetur adipisicing elit. Magni nequeetur.</p>
-    <p>Lorem ipsum dolor sit ametugitLorem ipsum dolor sit amet consectetur adipisimui..</p>
-    <p>Lorem ipsumlique qui alias suscsoluta!sit amet consectetur adipisicing elit. Magni nequeetur.</p>
-    <p>Lorem ipsum dolor sit ametugitLorem ipsum dolor sit amet consectetur adipisimui..</p>
-    <p>inus ab. Alias, sequi nobis iste eveniet eaque doinus ab. Alias, sequi nobis islaboriosam ql</p>
-   <a href='#'><button>Read More..</button></a>
+                    <p>
+                        Lorem ipsumlique qui alias suscsoluta!sit amet consectetur adipisicing elit. Magni nequeetur.
+                        Lorem ipsum dolor sit ametugitLorem ipsum dolor sit amet consectetur adipisimui..
+                        Lorem ipsumlique qui alias suscsoluta!sit amet consectetur adipisicing elit. Magni nequeetur.
+                        Lorem ipsum dolor sit ametugitLorem ipsum dolor sit amet consectetur adipisimui..
+                        inus ab. Alias, sequi nobis iste eveniet eaque doinus ab. Alias, sequi nobis islaboriosam ql.
+                        Lorem ipsum dolor sit ametugitLorem ipsum dolor sit amet consectetur adipisimui..
+                        inus ab. Alias, sequi nobis iste eveniet eaque doinus ab. Alias, sequi nobis islaboriosam ql
+                    </p>
+                        <a href='#'>Read More...</a>
                </div>
 
               

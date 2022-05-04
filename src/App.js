@@ -35,7 +35,7 @@ function App() {
         <Video videoLink="https://www.youtube.com/embed/NLjx100fwWM"  className="video"/>
         <Video videoLink="https://www.youtube.com/embed/rB7Geg6hhQc" className="video"/>
         </div>
-        
+          <a href='#'>See More <span>></span></a>
       </div>
       <div id='about'>
          <About />

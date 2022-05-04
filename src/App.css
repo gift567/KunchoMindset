@@ -19,9 +19,35 @@
   color: aliceblue;
 }
 .video__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     background-color: #111;
     color: #fff;
     margin: 0;
+    padding-top: 4rem;
+    position: relative;
+    border-top: 1px solid #3a3a3a;
+
+}
+.video__container a {
+  text-decoration: none;
+  position: absolute;
+  color: #eee;
+  bottom: 8rem;
+  background-color: red;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.video__container a > span {
+  transition: all ease-in-out .2s;
+}
+.video__container a:hover > span {
+  margin-left: 10px;
+  transform: scale(1.59);
+
 }
 .videos {
   display: flex;
@@ -30,4 +56,5 @@
   justify-content: center;
   gap: 4rem;
   background-color: #111;
+  width: 100%;
 }
