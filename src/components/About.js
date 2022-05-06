@@ -4,7 +4,7 @@ import shades from './images/kuncho logo2.jpg'
 import './About.css';
 
 
-const Header = () => {
+const About = () => {
     return (       
            <div className='about'>
                 <img src={shades} alt="" />
@@ -29,4 +29,4 @@ const Header = () => {
     )
 }
 
-export default Header 
+export default About 

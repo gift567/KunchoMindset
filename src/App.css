@@ -18,6 +18,9 @@
   background-color: #111;
   color: aliceblue;
 }
+.videos {
+  background-color: #111;
+}
 .video__container {
     display: flex;
     justify-content: center;
@@ -29,7 +32,7 @@
     padding-top: 4rem;
     position: relative;
     border-top: 1px solid #3a3a3a;
-
+    height: 100vh;
 }
 .video__container a {
   text-decoration: none;
