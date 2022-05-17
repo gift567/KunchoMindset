@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Navbar.css';
-import { Facebook, YouTube } from '@mui/icons-material'
+import { Close, Facebook, YouTube } from '@mui/icons-material'
 import  logo from './images/kuncho logo2.jpg';
-const Navbar = () => {
+import MenuIcon from '@mui/icons-material/Menu';
+
+const Navbar = ({ setOpen }) => {
+
   return (
     <div className="navbar">
         <div className="nav-left">
@@ -18,6 +21,7 @@ const Navbar = () => {
             <Facebook />
             <YouTube />
         </div>
+        <MenuIcon className='nav__menu' onClick={() => setOpen(open => !open)}/>
     </div>
   )
 }

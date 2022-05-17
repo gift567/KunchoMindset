@@ -1,10 +1,9 @@
 .navbar {
   height: 80px;
   background-color: black;
-  
-
   display: flex;
   align-items: center;
+  position: relative;
 }
 
 .nav-left {
@@ -56,4 +55,25 @@
 
 .MuiSvgIcon-root:hover {
   color: #aaa;
+}
+
+.nav__menu {
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  right: 55px;
+  visibility: hidden;
+  z-index: 1200;
+}
+
+@media screen and (max-width: 892px) {
+  .nav-left ul{
+    display: none;
+  }
+  .nav-left {
+    flex: 0.6;
+  }
+  .nav__menu {
+    visibility: unset;
+  }
 }

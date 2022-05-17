@@ -1,4 +1,7 @@
-
+.app {
+  position: relative;
+  width: 100% !important;
+}
 
 .tracklist__container {
   display: flex;
@@ -17,6 +20,20 @@
   justify-content: center;
   background-color: #111;
   color: aliceblue;
+  position: relative;
+  padding-bottom: 8rem;
+}
+
+.tracklist a {
+  background-color: red;
+  padding: 10px 50px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  bottom: 40px;
+  left: 43.3%;
 }
 .videos {
   background-color: #111;
@@ -29,19 +46,22 @@
     background-color: #111;
     color: #fff;
     margin: 0;
-    padding-top: 4rem;
+    padding-top: 20rem;
+    padding-bottom: 4rem;
     position: relative;
     border-top: 1px solid #3a3a3a;
-    height: 100vh;
+    height: 130vh;
 }
 .video__container a {
   text-decoration: none;
   position: absolute;
   color: #eee;
-  bottom: 8rem;
+  bottom: 6rem;
   background-color: red;
   padding: 10px 30px;
   border-radius: 30px;
+  left: 47%;
+
 }
 
 .video__container a > span {
